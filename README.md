@@ -13,6 +13,10 @@
 
 - genrare con una funzione le celle dentro la griglia
 
+- generare la funzione del click del bottone
+
+- collegare alla funzione click del bottone la creazione della griglia e a sua volta la creazione della cella
+
 - creare la funzione del click della cella
 
 - collegare le celle al loro numero di creazione del ciclo for
