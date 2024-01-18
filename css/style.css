@@ -1,0 +1,99 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(33, 32, 41);
+    min-height: 100vh;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* utlis */
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+/* debug */
+
+.debug{
+    min-height: 80px;
+    background-color: rgb(216, 163, 98);
+    padding: 2rem;
+}
+
+
+
+.wrapper{
+    
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.box-container{
+    width: 600px;
+    height: 600px;
+
+    border: solid 3px white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    width: calc(100% / 8 );
+    height: calc(100% / 8 );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 3px white;
+
+    cursor: pointer;
+}
+
+.box.clicked{
+    background-color: aquamarine;
+}
+
+.box.even {
+    background-color: aquamarine;
+}
+
+.box.odd{
+    background-color: pink;
+}
