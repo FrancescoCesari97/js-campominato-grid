@@ -94,14 +94,45 @@ a{
     cursor: pointer;
 }
 
+.box-81{
+    width: calc(100% / 9 );
+    height: calc(100% / 9 );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 3px rgb(0, 0, 0);
+
+    cursor: pointer;
+}
+
+.box-49{
+    width: calc(100% / 7 );
+    height: calc(100% / 7 );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 3px rgb(0, 0, 0);
+
+    cursor: pointer;
+}
+
 .box.clicked{
     background-color: rgb(127, 223, 255);
 }
 
 .box.even {
-    background-color: aquamarine;
+    background-color: rgb(212, 255, 127);
 }
 
 .box.odd{
     background-color: pink;
+}
+
+.barra-livello{
+    width: 20%;
+    margin-left: auto;
 }
